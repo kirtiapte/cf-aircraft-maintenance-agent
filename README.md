@@ -1,6 +1,6 @@
 # cf Essay Writer Agent
 
-This is a simple agent that can write essays for the topic provided. It uses a pre-trained language model to generate the essay based on the problem statement and the provided prompt template.  The agent uses plan, research, generate, reflect, research_critique nodes to implement the essay writing process.  The agent uses the following tools to build the agent: Langgraph, Tivily Search, Gradio, and Python.
+This is an AI agent that can write essays for the topic provided. It uses a pre-trained language model to generate the essay based on the problem statement and the provided prompt template.  The agent uses plan, research, generate, reflect, research_critique nodes to implement the essay writing process.  The agent uses the following tools to build the agent: Langgraph, Tivily Search, Gradio, and Python.
 
 ![Sample](images/essay-generator-graph.png)
 ## Usage
