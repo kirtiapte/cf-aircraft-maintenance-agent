@@ -1,0 +1,17 @@
+---
+applications:
+  - name: cf-essay-writer-agent
+    memory: 2G
+    disk_quota: 4G
+    instances: 1
+    buildpack: https://github.com/yannicklevederpvtl/uv-buildpack.git
+    stack: cflinuxfs4
+    timeout: 180
+    health-check-type: port
+    env:
+      TAVILY_API_KEY: "your-api-key-here"
+      PYTHON_VERSION_OVERRIDE: "3.11.11"
+      UV_CACHE_TTL: 7200
+      START_COMMAND_OVERRIDE: "uv run app.py"
+    services:
+    - gen-ai-qwen3-ultra
