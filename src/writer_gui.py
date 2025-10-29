@@ -200,8 +200,8 @@ class WriterGUI( ):
             with gr.Tab("Agent"):
                 with gr.Row():
                     topic_bx = gr.Textbox(label="Essay Topic", value="Pizza Shop")
-                    gen_btn = gr.Button("Generate Essay", scale=0,min_width=80, variant='primary')
-                    cont_btn = gr.Button("Continue Essay", scale=0,min_width=80)
+                    gen_btn = gr.Button("Generate Report", scale=0,min_width=80, variant='primary')
+                    cont_btn = gr.Button("Continue Report", scale=0,min_width=80)
                 with gr.Row():
                     lnode_bx = gr.Textbox(label="last node", min_width=100)
                     nnode_bx = gr.Textbox(label="next node", min_width=100)
