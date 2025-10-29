@@ -14,4 +14,4 @@ applications:
       UV_CACHE_TTL: 7200
       START_COMMAND_OVERRIDE: "uv run app.py"
     services:
-    - gen-ai-qwen3-ultra
+    - tanzu-gpt-oss-120b
